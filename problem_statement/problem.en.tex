@@ -1,0 +1,12 @@
+\problemname{Friendgroups}
+
+Many humans choose to partake in being a part of a friend group. What is this curious phenomenon known as a friend group? Well, when two people have a connection with each other, that is defined as a friendship. Now in this world, the friend of my friend is also my friend. So if person A is friends with person B, and person B is friends with person C, then person A is also friends with person C. So what are friend groups? Real life humans have imitated a graph concept known as strongly connected components. If person A and B are friends, then they are in a friend group of two people. If A and B, and B and C are friends, then the three of them are in a friend group of three. Isn't that great? Sadly these happy times cannot last. Humans also naturally develop a hatred for each other as well. You are given a list of friendships. Then you are given a list of rivalries that have sparked over time. Your job is to see if there are any rivalries within a friend group threatening to tear it apart.
+
+\section*{Input}
+
+The input consists of a single test case. The first line contains two integers $1 \le n \le 1000$ denoting the number of friendships that follow, and $1 \le k \le 1000$ the number of rivalries. After that is $n$ lines with two integers representing two individuals being friends with each other. Then there are $k$ lines with two integers representing two individuals being rivals with each other. Each integer will be between $0$ and $10000$ inclusive.
+
+\section*{Output}
+
+On a single line print out "Yes" if there are some new friendship troubles in a friend group or "No" if there are no rivalries within a friend group.
+
